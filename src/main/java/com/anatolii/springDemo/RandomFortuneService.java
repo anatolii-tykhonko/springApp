@@ -15,7 +15,7 @@ import java.util.Random;
 public class RandomFortuneService implements FortuneService {
 
     private List<String> randomFortuneWithFile;
-    @Value("${textFile.filePatch}")
+    @Value("${textFileFortuneStatus.filePatch}")
     private String filePath;
 
     @PostConstruct
